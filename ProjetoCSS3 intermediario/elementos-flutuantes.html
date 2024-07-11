@@ -7,38 +7,67 @@
 
     <style type="text/css">
 
-    /*
+    
+    #principal {
+        border: 5px solid red;
+        background: green
+    }
+
+
     .conteudo {
         background: blue;
         border: 1px solid gray;
         width: 200px;
         height: 200px;
+        margin: 10px;
+        float: right;
     }
-    */
-    .conteudo-zero {
-        background: red;
+    
+    /*
+    .conteudo1 {
+        background:red;
         border: 1px solid gray;
         width: 200px;
         height: 200px;
         margin: 10px;
-        float:right;
+        float: left;
+    }*/
+
+    
+    .conteudo-zero {
+        background:red;
+        border: 1px solid gray;
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        float: left;
+    }
+
+    .clear {
+        clear: right;
     }
 
     </style>
 
+        <div id="principal">
 
+            <div class="conteudo">
+                Conteúdo 1
+            </div>
 
-    <div class="conteudo-zero">
-        Conteúdo 1
-    </div>
+            <div class="conteudo">
+                Conteúdo 2
+            </div>
 
-    <div class="conteudo">
-        Conteúdo 2
-    </div>
+            <div class="conteudo">
+                Conteúdo 3
+            </div>
 
-    <div class="conteudo">
-        Conteúdo 3
-    </div>
+            <!--
+            <div class="clear">aa</div>
+            -->
+            
+
 
 </head>
 <body>
