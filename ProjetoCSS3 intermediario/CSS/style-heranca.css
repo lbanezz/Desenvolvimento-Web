@@ -10,4 +10,15 @@ Herança e especificade
 */
 
 /* Se um seletor for mais específico que outro a regra mais específica será aplicada (terá precedência sobre regras mais gerais)
-8/
+*/
+* {
+    color: red;
+}
+
+h2 {
+    color: aqua;
+}
+
+h2.verde {
+    color: green;
+}
