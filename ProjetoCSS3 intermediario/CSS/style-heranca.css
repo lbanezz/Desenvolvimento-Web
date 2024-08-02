@@ -15,10 +15,15 @@ Herança e especificade
     color: red;
 }
 
-h2 {
+h2 {/*3*/
     color: aqua;
 }
 
-h2.verde {
+h2#amarelo {/*2*/
+    color: yellow;
+}
+
+
+h2.verde {/*1*/
     color: green;
 }
