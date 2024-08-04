@@ -38,7 +38,7 @@ a:hover {
     color: #fff;
 }
 
-#home .home {
+#home .home a {
     background-position: right bottom;
     background-color: #f99200;
     color: #fff;
